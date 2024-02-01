@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: url('https://deeplor.s3.us-west-2.amazonaws.com/matting_original/2024/02/01/615e7c715ba24d99aae7d38ff0251957.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240201T183917Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAROYXHKZUSZONTWIG%2F20240201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=4ecd9606f77eb9fc2d732cd0e43802b6f98f860eef31c6578838e68837b319c2') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.2em;
+}
